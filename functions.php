@@ -1,5 +1,6 @@
+<?php
 
-
+// register menus
 function register_my_menus() {
   register_nav_menus(
     array(
@@ -8,4 +9,7 @@ function register_my_menus() {
      )
    );
  }
- add_action( 'init', 'register_my_menus' );
+add_action( 'init', 'register_my_menus' );
+// support using a logo
+add_theme_support( 'custom-logo' );
+?>

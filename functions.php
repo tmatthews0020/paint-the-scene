@@ -12,4 +12,7 @@ function register_my_menus() {
 add_action( 'init', 'register_my_menus' );
 // support using a logo
 add_theme_support( 'custom-logo' );
+// support post thumbnails
+add_theme_support( 'post-thumbnails', array( 'post' ) );
+set_post_thumbnail_size( 286, 180, true );
 ?>

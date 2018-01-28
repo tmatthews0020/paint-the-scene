@@ -10,6 +10,9 @@ Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, 
 Text Domain: paintthescene
 */
 
+$theme-colors: (
+  "primary": #3771c8,
+);
 
 
 @import '../node_modules/bootstrap/scss/bootstrap';

@@ -5,13 +5,15 @@
 
   <div class="container text-center">
     <div class="row">
-       <h1 class="col-12"><?php the_title() ?> </h1>
+       <h1 class="col-12 mt-3"><?php the_title() ?> </h1>
     </div>
     <div class="row">
-      <span class="col-6 text-center text-secondary"><?php the_author()?> </span> <span class="col-6 text-center text-secondary"> <?php the_time() ?></span>
+      <span class="col-6 text-center text-secondary">By: <?php the_author()?> </span> <span class="col-6 text-center text-secondary"> <?php the_time('F j, Y') ?></span>
     </div>
-    <div class="row col-12 text-center">
-      <?php the_content() ?>
+    <div class="row ">
+      <span class="mt-5 mb-5">
+        <?php the_content() ?>
+      </span>
     </div>
   </div>
 

@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row">
     <?php  if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
-      <div class="col-4">
+      <div class="col-md-4">
         <div class="card">
           <?php the_post_thumbnail(array('318', '180'), ['class' => 'card-img-top']) ?>
           <div class="card-body">

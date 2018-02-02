@@ -25,12 +25,15 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
      <?php wp_nav_menu( array(
-       'theme_location' => 'header-menu',
-       'menu-item' => 'nav-link',
-       'current-ment-item' => 'active'
+       'theme-location' => 'nav-menu',
+       'menu_class' => 'navbar-nav mr-auto"',
+       'fallback_cb' => false,
+       // 'current_menu_item' => 'active',
+       'before' => '<div class="nav-item">',
+       'after' => '</div>',
+       // 'after' => '</div>',
+       // 'items_wrap' => '%3$s'
       )); ?>
-    </ul>
   </div>
 </nav>

@@ -3,8 +3,8 @@
   function register_my_menus() {
     register_nav_menus(
       array(
-        'header-menu' => __( 'Header Menu' ),
-        'extra-menu' => __( 'Extra Menu' )
+        'nav-menu' => __( 'Navigation' ),
+        'footer-menu' => __( 'Footer' )
        )
      );
    }

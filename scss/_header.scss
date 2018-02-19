@@ -1,6 +1,45 @@
 .header {
   position: relative;
-  &header__img{
+  .header__img{
+    background: url("./assets/img/main.jpg") no-repeat cover;
+    height: 800px;
+  }
+  .header__text{
+    top: 50%;
+    width: 300px;
+    margin: 0 auto;
+  }
+}
 
+.nav-link {
+  a {
+    color: #232323;
+  }
+}
+
+
+.header_with_image{
+
+    background-color: theme-color("dark");;
+
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    width: 100%;
+    opacity: 0.8;
+
+    .header-text {
+      top:25%;
+      color: white;
+      margin: 0 auto;
+      position: absolute;
+    }
+
+    .fill-image {
+      flex-shrink:0;
+      min-width:100%;
+      min-height:100%
   }
 }

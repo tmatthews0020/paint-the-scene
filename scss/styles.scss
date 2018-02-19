@@ -17,3 +17,13 @@ $theme-colors: (
 
 @import '../node_modules/bootstrap/scss/bootstrap';
 @import '../node_modules/normalize.css/normalize';
+@import './_header';
+
+
+li {
+  text-decoration: none;
+}
+
+html {
+  margin-top: 0 !important;
+}

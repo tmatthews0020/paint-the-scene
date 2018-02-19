@@ -24,14 +24,14 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="collapse navbar-collapse pl-3" id="navbarNav">
      <?php wp_nav_menu( array(
        'theme-location' => 'nav-menu',
-       'menu_class' => 'navbar-nav mr-auto"',
+       'menu_class' => 'navbar-nav mr-auto',
        'fallback_cb' => false,
        // 'current_menu_item' => 'active',
-       'before' => '<div class="nav-item">',
-       'after' => '</div>',
+       'before' => '<div class="nav-item"><div class="nav-link">',
+       'after' => '</div></div>',
        // 'after' => '</div>',
        // 'items_wrap' => '%3$s'
       )); ?>

@@ -33,6 +33,6 @@
 <!-- /End the loop. -->
 <?php  endwhile;  ?>
 
-<?php get_footer(); ?>
+<?php get_footer() ?>
 
-</html>
+<?php wp_footer(); ?>

@@ -2,7 +2,8 @@
 
 
   <div class="header_with_image">
-    <img class="fill-image" src="wp-content/themes/paint-the-scene/assets/img/main.jpg"/>
+    <!-- <imgsrc="wp-content/themes/paint-the-scene/assets/img/main.jpg"/> -->
+    <img  class="fill-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
     <div class="header-text container">
       <div class="row">
         <h1 class="display-2">Simply Smart Travel</h1>

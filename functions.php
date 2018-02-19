@@ -20,7 +20,7 @@
   // custom header support
   function themename_custom_header_setup() {
     $args = array(
-        'default-image'      => get_template_directory_uri() . '/assets/img/default-header.jpg',
+        'default-image'      => get_template_directory_uri() . '/assets/img/main.jpg',
         'default-text-color' => '000',
         'width'              => 1956,
         'height'             => 800,

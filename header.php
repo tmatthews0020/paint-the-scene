@@ -13,7 +13,7 @@
         <?php wp_head(); ?>
     </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+<nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-light bg-light border-bottom">
   <a class="navbar-brand" href="#">
     <?php
       if ( function_exists( 'the_custom_logo' ) ) {
@@ -21,10 +21,10 @@
       }
     ?>
   </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse pl-3" id="navbarNav">
+  <div class="collapse navbar-collapse pl-3" id="navbarNavDropdown">
      <?php wp_nav_menu( array(
        'theme-location' => 'nav-menu',
        'menu_class' => 'navbar-nav mr-auto',

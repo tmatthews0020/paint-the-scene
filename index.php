@@ -6,10 +6,10 @@
     <img  class="fill-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
     <div class="header-text container">
       <div class="row">
-        <h1 class="display-2">Simply Smart Travel</h1>
+        <h1 class="display-2"><?php echo get_bloginfo('name') ?></h1>
       </div>
       <div class="row">
-        <p class="lead"> tips and tricks </p>
+        <p class="lead"><?php echo get_bloginfo('description') ?></p>
       </div>
     </div>
   </div>
@@ -26,15 +26,19 @@ Integer leo nunc, tincidunt sed tortor ut, accumsan gravida ex. Fusce malesuada 
 Mauris maximus lacus ac est commodo mattis. Vivamus interdum diam quis nisl vulputate, quis imperdiet dolor rutrum. Etiam tincidunt, ante id tincidunt auctor, nulla turpis ultricies erat, sed luctus ipsum felis commodo elit. Quisque volutpat sapien at nibh sollicitudin, id pulvinar justo egestas. Nulla at sem urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis vulputate efficitur. Proin a ligula vestibulum, blandit urna eu, rutrum nisi. Nam aliquam mattis arcu, a sodales mauris ornare quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum iaculis maximus euismod. Nullam scelerisque, augue et dapibus tincidunt, tortor risus rutrum tellus, eget commodo purus arcu non urna. Nam laoreet consectetur condimentum. Sed quis velit tempus tortor maximus interdum. Integer convallis magna et nisl tincidunt facilisis.
 
 Morbi a interdum dui. Sed quis risus et risus ultricies congue. Donec et eleifend nisi, eu blandit nulla. Phasellus finibus nunc sodales
-  </p>
+    </p>
   </div>
-  <div class="row">
+  <div class="row border-bottom mt-3 mb-3">
+    <h1 class="display-6">latest posts...</h1>
+  </div>
+  <div class="row pb-3">
     <?php  if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
       <div class="col-md-4">
         <div class="card">
           <?php the_post_thumbnail(array('318', '180'), ['class' => 'card-img-top']) ?>
           <div class="card-body">
             <h4 class="card-title"><?php the_title() ?> </h4>
+            <h6 class="card-subtitle mb-2 text-muted"><?php the_time('F j, Y') ?></h6>
             <div class="card-text"><?php the_excerpt() ?> </div>
             <a class="btn btn-primary" href="<?php echo get_permalink($ID) ?>">Read more</a>
           </div>
@@ -45,5 +49,7 @@ Morbi a interdum dui. Sed quis risus et risus ultricies congue. Donec et eleifen
   </div>
 </div>
 
+
+<?php get_footer(); ?>
 
 <?php wp_footer(); ?>

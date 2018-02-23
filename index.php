@@ -33,9 +33,9 @@ Morbi a interdum dui. Sed quis risus et risus ultricies congue. Donec et eleifen
   </div>
   <div class="row pb-3">
     <?php  if ( have_posts() ) : while ( have_posts() ) : the_post();  ?>
-      <div class="col-md-4">
+      <div class="col-md-6 pb-3">
         <div class="card">
-          <?php the_post_thumbnail(array('318', '180'), ['class' => 'card-img-top']) ?>
+          <?php the_post_thumbnail(array('500', '250'), ['class' => 'card-img-top']) ?>
           <div class="card-body">
             <h4 class="card-title"><?php the_title() ?> </h4>
             <h6 class="card-subtitle mb-2 text-muted"><?php the_time('F j, Y') ?></h6>

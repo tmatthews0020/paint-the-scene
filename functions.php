@@ -36,4 +36,7 @@
     return 20;
 }
   add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+  @ini_set( 'upload_max_size' , '64M' );
+
 ?>

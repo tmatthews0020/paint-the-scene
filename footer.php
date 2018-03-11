@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-primary footer mt-3">
+<nav class="navbar navbar-dark bg-dark footer mt-3">
   <div class="container">
     <div class="row">
       <div class="text-center">

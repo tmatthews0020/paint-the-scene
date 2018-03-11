@@ -1,19 +1,18 @@
 <?php get_header(); ?>
 
 
-  <div class="header_with_image">
-    <!-- <imgsrc="wp-content/themes/paint-the-scene/assets/img/main.jpg"/> -->
-    <img  class="fill-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-    <div class="header-text container">
-      <div class="row">
-        <h1 class="display-2"><?php echo get_bloginfo('name') ?></h1>
-      </div>
-      <div class="row">
-        <p class="lead"><?php echo get_bloginfo('description') ?></p>
-      </div>
+<div class="header_with_image">
+  <!-- <imgsrc="wp-content/themes/paint-the-scene/assets/img/main.jpg"/> -->
+  <img  class="fill-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+  <div class="header-text container">
+    <div class="row">
+      <h1 class="display-2"><?php echo get_bloginfo('name') ?></h1>
+    </div>
+    <div class="row">
+      <p class="lead"><?php echo get_bloginfo('description') ?></p>
     </div>
   </div>
-
+</div>
 
 <div class="container pt-3">
   <div class="row">

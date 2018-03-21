@@ -20,6 +20,7 @@ $theme-colors: (
 @import './_header';
 @import './_post';
 @import './_comments';
+@import './_footer';
 
 
 li {
@@ -28,9 +29,4 @@ li {
 
 html {
   margin-top: 0 !important;
-}
-
-.footer{
-  position: relative;
-  bottom: 0;
 }

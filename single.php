@@ -8,7 +8,8 @@
        <h1 class="display-2 col-12 mt-3"><?php the_title() ?></h1>
     </div>
     <div class="row">
-      <span class="col-6 text-center text-secondary">By: <?php the_author()?> </span> <span class="col-6 text-center text-secondary"> <?php the_time('F j, Y') ?></span>
+      <span class="col-6 text-center text-secondary">By: <?php the_author()?> </span>
+      <span class="col-6 text-center text-secondary"> <?php the_time('F j, Y') ?></span>
     </div>
     <div class="row ">
       <span class="mt-5 mb-5">

@@ -1,14 +1,10 @@
-<nav class="navbar navbar-dark bg-dark footer mt-3">
-  <div class="container text-white">
-    <div class="row">
-      <div class="col-md-6">
-        <div>
-          <span>copyright <?php echo date("Y") ?> </span>
-        </div>
-      </div>
-      <div class=" col col-md-6">
-      </div>
+<nav class="footer bg-dark mt-3 text-white">
+  <div class="container pt-3">
+    <div class="row text-center justify-content-center">
+      <div class="col-6">Simply Smart Travel - Copyright <?php echo date("Y") ?> </div>
+    </div>
+    <div class="row text-center justify-content-center">
+      <div class="col-6"></div>
     </div>
   </div>
 </nav>
-</html>

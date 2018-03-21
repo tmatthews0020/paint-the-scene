@@ -16,16 +16,20 @@
 
 <div class="container pt-3">
   <div class="row">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae urna risus. Nam magna nisl, ullamcorper eget ornare at, commodo eu lectus. Donec dolor urna, posuere sit amet tellus eu, luctus sollicitudin ipsum. In gravida molestie viverra. Mauris pharetra nunc at mauris elementum placerat. Mauris elementum nibh lacinia aliquam molestie. Etiam ultrices, sem a varius sagittis, orci turpis mattis velit, in fermentum elit dolor quis sem. Vestibulum sed imperdiet arcu. Nullam rhoncus mi a metus accumsan, vitae ornare metus iaculis. Mauris sit amet suscipit mauris. Curabitur pulvinar dolor felis, ut maximus nibh cursus non. Donec porta porta dolor, a tempus tortor eleifend id. Morbi dapibus nunc erat. Morbi ultrices volutpat finibus.
-
-Donec mollis egestas metus in pharetra. Etiam gravida cursus erat, in hendrerit elit volutpat at. Morbi eget tortor at ipsum semper vehicula ac nec mauris. Nunc venenatis, tellus ullamcorper fringilla faucibus, nibh turpis eleifend nisl, et dapibus lorem dui dignissim purus. Nullam non consectetur elit. Maecenas non venenatis magna. Nunc lacinia ex eget libero efficitur, ac hendrerit metus scelerisque. Praesent mattis euismod velit in sagittis. Quisque consequat, mi quis tincidunt consequat, ipsum ante lobortis nulla, quis fermentum risus leo in ipsum. Sed sollicitudin orci metus, ornare facilisis nisi viverra condimentum. Aliquam rhoncus placerat est quis dignissim. In sit amet est nisi. In laoreet ex ac neque vestibulum, vel efficitur nibh bibendum.
-
-Integer leo nunc, tincidunt sed tortor ut, accumsan gravida ex. Fusce malesuada viverra elementum. Pellentesque vehicula augue quis quam scelerisque convallis. Praesent vitae vestibulum tortor. Donec vel lorem nec lectus fringilla facilisis et in mi. Pellentesque commodo dignissim feugiat. Maecenas efficitur pulvinar lacus.
-
-Mauris maximus lacus ac est commodo mattis. Vivamus interdum diam quis nisl vulputate, quis imperdiet dolor rutrum. Etiam tincidunt, ante id tincidunt auctor, nulla turpis ultricies erat, sed luctus ipsum felis commodo elit. Quisque volutpat sapien at nibh sollicitudin, id pulvinar justo egestas. Nulla at sem urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis vulputate efficitur. Proin a ligula vestibulum, blandit urna eu, rutrum nisi. Nam aliquam mattis arcu, a sodales mauris ornare quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum iaculis maximus euismod. Nullam scelerisque, augue et dapibus tincidunt, tortor risus rutrum tellus, eget commodo purus arcu non urna. Nam laoreet consectetur condimentum. Sed quis velit tempus tortor maximus interdum. Integer convallis magna et nisl tincidunt facilisis.
-
-Morbi a interdum dui. Sed quis risus et risus ultricies congue. Donec et eleifend nisi, eu blandit nulla. Phasellus finibus nunc sodales
-    </p>
+    <span class="pt-3">
+      <p>Welcome Aboard Simply Smart Travel.
+  Whether you travel for business, pleasure, health, love of learning , adventure, the love of others, to explore the open road or to just get there, we know that your primary goal is to travel with as little hassle and the most pleasure possible. We’re here to help you do that.
+      </p>
+      <ul>
+        <li>While we focus on providing superb information for travelers over 50 (yep, that includes us) that’s not all. We know we have readers and followers of all ages.</li>
+        <li> We love learning and provide advice on how you can enjoy learning from and about your specific destination, from museums to cultural events and a whole lot more. </li>
+        <li>We also love to explore Florida and report on our explorations so you can benefit from our love affair with this gorgeous state.</li>
+        <li>We also simply adore traveling by train so we including a lot on that subject too. Our goal is to weave together ideas and tips to help make your traveling easier, more enjoyable and help you squeeze more value from your precious time and money.</li>
+      </ul>
+      <p> We invite you to look around, use whatever might be useful and, if you like what you see, to please join our little online travel club (it’s free and always will be) so we can keep you in the loop about what we have learned, pass on any deals and discounts we unearth and number you among our travel friends.</p>
+      <p> If you have ideas, tips and experiences you want to pass on to others, we invite you to select the Contact Us link above and submit them. </p>
+      <p>Thanks for traveling the information highway with us. We hope you enjoy the trip. </p>
+    </span>
   </div>
   <div class="row border-bottom mt-3 mb-3">
     <h1 class="display-6">latest posts...</h1>

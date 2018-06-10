@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <div class="header_with_image">
   <!-- <imgsrc="wp-content/themes/paint-the-scene/assets/img/main.jpg"/> -->
   <img  class="fill-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="<?php echo get_custom_header()->alt ?>" />
@@ -13,7 +12,6 @@
     </div>
   </div>
 </div>
-
 <div class="container pt-3">
   <div class="row">
     <span class="pt-3">

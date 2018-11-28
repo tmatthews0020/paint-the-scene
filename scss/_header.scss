@@ -21,15 +21,13 @@
 
 .header_with_image{
 
-    background-color: theme-color("dark");;
+    background-color: theme-color("dark");
     position:relative;
-
     display:flex;
     justify-content:center;
     align-items:center;
     overflow:hidden;
     width: 100%;
-    opacity: 0.8;
 
     .header-text {
       top:25%;
@@ -39,6 +37,7 @@
     }
 
     .fill-image {
+      opacity: 0.8;
       flex-shrink:0;
       min-width:100%;
       min-height:100%

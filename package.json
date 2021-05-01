@@ -1,6 +1,9 @@
 {
   "name": "paint-the-scene",
   "version": "0.1.0",
+  "scripts": {
+    "build": "grunt"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-postcss": "^0.9.0",

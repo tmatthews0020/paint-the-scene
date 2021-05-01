@@ -14,7 +14,7 @@
           <div class="card-body">
             <h4 class="card-title"><?php the_title() ?> </h4>
             <div class="card-text"><?php the_excerpt('25'); ?> </div>
-            <a class="btn btn-primary" href="<?php echo get_permalink($ID) ?>">Read more</a>
+            <a class="btn btn-primary" href="<?php echo get_permalink(get_the_ID()) ?>">Read more</a>
           </div>
         </div>
       </div>

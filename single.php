@@ -3,7 +3,7 @@
 <!--  start loop-->
 <?php   while ( have_posts() ) : the_post(); ?>
 
-<div class="container text-center">
+<div class="container">
   <div class="row">
      <h1 class="display-2 col-12 mt-3"><?php the_title() ?></h1>
   </div>
